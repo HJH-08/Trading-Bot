@@ -232,5 +232,7 @@ for ticker in tickers_list:
 for i in sorted(tickers_points.items(), key=lambda item: item[1], reverse=True):
     print(i)
 
+print('-')
+
 # Print out every ticker's rmse averaged over 10 loops
 print(tickers_rmse)
